@@ -1,8 +1,7 @@
-
-
+import joblib
 import pandas as pd
 import streamlit as st
-import joblib
+
 
 numerical_features=['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges']
 categorical_features=['gender', 'Partner', 'Dependents', 'PhoneService', 'MultipleLines',
