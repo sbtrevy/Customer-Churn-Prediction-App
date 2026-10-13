@@ -39,7 +39,7 @@ st.write('Enter the customers information')
 gender=st.selectbox('Gender', ['Female', 'Male'])
 
 senior_citizen=st.selectbox('Are a senior citizen?', ['No','Yes'])
-senior_citizen_value=1.if senior_citizen=='Yes' else 0
+senior_citizen_value=1 if senior_citizen=='Yes' else 0
 
 partner=st.selectbox('Do you have a partner?', ['No','Yes'])
 
